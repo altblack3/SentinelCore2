@@ -1,0 +1,17 @@
+﻿# SentinelCore Configuration - Author: altblack
+
+discord:
+  enabled: true
+  webhook-url: "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+  bot-name: "SentinelCore Watchdog"
+
+security:
+  max-command-length: 256
+  command-rate-limit:
+    enabled: true
+    cooldown-ms: 500
+    max-warnings: 3
+    action: "kick" # Options: kick, ban, warn
+  exploit-filter:
+    block-oversized-books: true
+    max-book-page-length: 1024
