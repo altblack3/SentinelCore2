@@ -1,0 +1,18 @@
+﻿name: SentinelCore
+version: '${project.version}'
+main: com.altblack.sentinel.SentinelCore
+api-version: '1.21'
+author: altblack
+description: Advanced security, anti-exploit, and crash watchdog plugin.
+commands:
+  sentinelcore:
+    description: SentinelCore main administrative command
+    permission: sentinelcore.admin
+    usage: /sentinelcore <reload|status>
+permissions:
+  sentinelcore.admin:
+    description: Allows full administrative access to SentinelCore
+    default: op
+  sentinelcore.bypass:
+    description: Allows bypassing rate limiting and exploit filters
+    default: false

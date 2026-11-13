@@ -1,0 +1,3 @@
+com\altblack\sentinel\SentinelCore.class
+com\altblack\sentinel\listeners\ExploitListener.class
+com\altblack\sentinel\utils\DiscordWebhook.class
